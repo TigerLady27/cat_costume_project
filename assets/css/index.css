@@ -1,12 +1,116 @@
 body {
   margin: 0;
 }
+.splash{
+  max-width: 100%;
+}
+nav h1{
+  display: inline-block;
+  font pt-size: 1.5em;
+  font-color: #323232;
+}
+nav div{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 
-
-/* On devices wider than 660px */
+   /*float: right;*/
+}
+nav p{
+  font-size: .9em;
+  font-color: #323232;
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.title1{
+  font-size: 1.875em;
+  text-align: center;
+}
+.main{
+  font-size: 1em;
+  line-height: 2em;
+  font-color: #323232;
+  text-align: center;
+  display:inline-block;
+}
+.p{
+  font-size: .875em;
+  line-height: 1.75em;
+  font-color: #323232;
+}
+.catboxes{
+  background-color: #eeeeee;
+  padding: 200px -2px;
+  max-width: 250px;
+  display: inline-block;
+  vertical-align: top;
+}
+.circle img{
+  /* justify-content: space-between; */
+  border-radius: 50%;
+  /* width: 250px; */
+  /* height: 250px; */
+}
+.contactboxes{
+  background-color: white;
+  padding: 30px;
+  display: block;
+  float:left;
+}
+/* On devices wider t.han 660px */
 @media(min-width: 660px) {
 }
+.title2{
+  text-align: center;
+}
+.contact1{
+  text-transform: uppercase;
 
+  width: 300Px;
+  display: inline-block;
+  background: #eeee;
+  font-size: 1em;
+}
+.contact1 h2{
+  color: #00897f;
+}
+.contact2{
+  text-transform: uppercase;
+  text-decoration-color: #00897f;
+  width: 300Px;
+  display: inline-block;
+  background: #eeee;
+  font-size: 1em;
+}
+.contact2 h2{
+  color: #00897f;
+}
+.footer h1{
+  text-align: center;
+  font-size: 1.25em;
+  background-color: #00897f;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.map{
+  max-width: 100%;
+}
+.titlecolor h2{
+  text-decoration-color: #00898f;
+  }
 /* On devices wider than 940px */
 @media(min-width: 940px) {
+}
+.box {
+    width: 300px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 700px) {
+    .box {
+        width: 90%;
+        display: block;
+    }
 }
